@@ -21,7 +21,7 @@
   <link href="assets/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/VenoBox-master/venobox/venobox.css" rel="stylesheet">
-  <link href="node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets\owl.carousel\docs\assets\owlcarousel\assets\owl.carousel.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -60,7 +60,7 @@
         <ul>
           <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <!-- <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
           <li class="active"><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
           <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
@@ -146,19 +146,23 @@
   <!-- Vendor JS Files -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <script src="node_modules\jquery\jquery.easing\jquery.easing.min.js"></script>
+  <script src="assets/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/php-email-form/validate.js"></script>
   <script src="assets/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/counterup/counterup.min.js"></script>
   <script src="assets/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/VenoBox-master/venobox/venobox.min.js"></script>
-  <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="assets/typed.js/typed.min.js"></script>
   <script src="node_modules/aos/dist/aos.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/main/js/main.js"></script>
-
+  <script>
+    $(function() {
+         AOS.init();
+    });
+  </script>
 </body>
 
 </html>
